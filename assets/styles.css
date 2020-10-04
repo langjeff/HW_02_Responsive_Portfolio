@@ -40,6 +40,14 @@ h1, h2, h3 {
   font-family: 'Marcellus', serif;
   padding: .5em;
   font-weight: bold;
+  color: #231651;
+}
+
+p {
+  font-family: 'Martel Sans', sans-serif;
+  padding .5em;
+  font-weight: bold;
+  color: #231651;
 }
 
 .footer {
