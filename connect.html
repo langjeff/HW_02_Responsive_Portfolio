@@ -2,170 +2,202 @@
 <!DOCTYPE html>
 <!-- html language -->
 <html lang="en">
-<!-- head tag -->
+  <!-- head tag -->
 
-<head>
+  <head>
     <!-- charset for web browsers -->
     <meta charset="UTF-8" />
     <!-- viewport metadata -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- icon file reference for browser tab -->
-    <link rel="icon"
-        href="https://media-exp1.licdn.com/dms/image/C5603AQEA735uf8Ig2g/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=AK8jDjcQ2KqfSXOorT6ldTynz7uwOToGWrvTv8Rv13M"
-        type="icon" />
+    <link
+      rel="icon"
+      href="https://media-exp1.licdn.com/dms/image/C5603AQEA735uf8Ig2g/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=AK8jDjcQ2KqfSXOorT6ldTynz7uwOToGWrvTv8Rv13M"
+    />
     <!-- style reference for Bootstrap componenents -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!-- reference for social icons from Bootstrap -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
     <!-- google fonts reference -->
-    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Martel+Sans&family=Teko&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Martel+Sans&family=Teko&display=swap"
+      rel="stylesheet"
+    />
     <!-- stylesheet for customized CSS -->
     <link rel="stylesheet" href="/assets/styles.css" />
     <!-- page title for browser tab -->
     <title>Jeff Lang</title>
     <!-- end of head  -->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- beginning of navigation element -->
     <header class="sticky-top">
-        <!-- Navbar -->
-        <nav class="navbar navbar-light navbar-expand bg-light">
-            <ul class="navbar-nav mx-auto text-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/connect.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Home<span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/portfolio.html">Portfolio</a>
-                </li>
-            </ul>
-
-            <!-- Navbar -->
+      <!-- Navbar -->
+      <nav class="navbar navbar-light navbar-expand bg-light">
+        <ul class="navbar-nav mx-auto text-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="/connect.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html"
+              >Home<span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar -->
     </header>
 
     <div class="container align-content-center">
-        <!--Section: Contact v.2-->
-        <form class="mb-4 h-100 mx-auto my-5 rounded" style="background-color: rgba(245, 245, 245, 0.75);>
-        
-            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us
-                directly. Our team will come back to you within
-                a matter of hours to help you.</p>
-        
-            <div class="row">
-        
+      <!--Section: Contact v.2-->
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">
+          Contact us
+        </h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">
+          Do you have any questions? Please do not hesitate to contact us
+          directly. Our team will come back to you within a matter of hours to
+          help you.
+        </p>
+
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <!--Grid row-->
+              <div class="row">
                 <!--Grid column-->
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="">Your name</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-        
-                            <!--Grid column-->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control">
-                                    <label for="email" class="">Your email</label>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-        
-                        </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control">
-                                    <label for="subject" class="">Subject</label>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Grid row-->
-        
-                        <!--Grid row-->
-                        <div class="row">
-        
-                            <!--Grid column-->
-                            <div class="col-md-12">
-        
-                                <div class="md-form">
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
-                                </div>
-        
-                            </div>
-                        </div>
-                        <!--Grid row-->
-        
-                    </form>
-        
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                    </div>
-                    <div class="status"></div>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                    />
+                    <label for="name" class="">Your name</label>
+                  </div>
                 </div>
                 <!--Grid column-->
-        
+
                 <!--Grid column-->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <p>Louisville, CO, 80027 USA</p>
-                        </li>
-        
-                        <li>
-                            <p>+ 01 650 906 2316</p>
-                        </li>
-        
-                        <li>
-                            <p>jefflang@govcompli.com</p>
-                        </li>
-                    </ul>
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                    />
+                    <label for="email" class="">Your email</label>
+                  </div>
                 </div>
                 <!--Grid column-->
-        
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control"
+                    />
+                    <label for="subject" class="">Subject</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                    ></textarea>
+                    <label for="message">Your message</label>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+
+            <div class="text-center text-md-left">
+              <a
+                class="btn btn-primary"
+                onclick="document.getElementById('contact-form').submit();"
+                >Send</a
+              >
             </div>
-        
-        </form>
-        <!--Section: Contact v.2-->
+            <div class="status"></div>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+      <!--Section: Contact v.2-->
     </div>
     <!-- Footer -->
     <footer class="page-footer">
-        <div class="footer text-center">
-            <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-            <a href="#"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-            <a href="#"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-            <a href="#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-        </div>
+      <div class="footer text-center">
+        <a href="#"
+          ><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i
+        ></a>
+        <a href="#"
+          ><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i
+        ></a>
+        <a href="#"
+          ><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i
+        ></a>
+        <a href="#"
+          ><i id="social-em" class="fa fa-envelope-square fa-3x social"></i
+        ></a>
+      </div>
     </footer>
 
     <!-- script relations for javacript bootstrap elements -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
