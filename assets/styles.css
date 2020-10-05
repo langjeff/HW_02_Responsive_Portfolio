@@ -3,28 +3,31 @@
 /* font-family: 'Martel Sans', sans-serif; */
 /* font-family: 'Teko', sans-serif; */
 
+/* setting box sizing property to be sure padding does not affect size of boxes */
 * {
   box-sizing: border-box;
 }
-
-html, body {
+/* setting margins and padding for full page background images */
+html,
+body {
   margin: 0;
   padding: 0;
   color: #231651;
 }
 
+/* for sticky navbar setting top position */
 .sticky-top {
   position: sticky;
   top: 0;
   width: 100vw;
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 25px;
 }
-
+/* providing some padding for nav items */
 .nav-item {
   padding: 0px 20px;
 }
-
+/* setting parameters for jumbotron background images */
 .jumbotron-fluid {
   height: 100vh;
   width: 100%;
@@ -35,45 +38,49 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-
-h1, h2, h3 {
-  font-family: 'Martel Sans', sans-serif;
-  padding: .5em;
+/* setting font-styles for h-elements */
+h1,
+h2,
+h3 {
+  font-family: "Martel Sans", sans-serif;
+  padding: 0.5em;
   font-weight: bold;
   color: #231651;
 }
-
-p, label, a {
-  font-family: 'Martel Sans', sans-serif;
-  padding: .5em;
+/* setting font styles for p, label, and a elements */
+p,
+label,
+a {
+  font-family: "Martel Sans", sans-serif;
+  padding: 0.5em;
   font-weight: bold;
   color: #231651;
 }
-
+/* setting position for sticky footer */
 .footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
-  height: 60px; 
-  line-height: 60px; 
+  height: 60px;
+  line-height: 60px;
   background-color: #f5f5f5;
 }
 
- 
- #social-fb:hover {
-     color: #3B5998;
- }
- #social-tw:hover {
-     color: #4099FF;
- }
- #social-gp:hover {
-     color: #d34836;
- }
- #social-em:hover {
-     color: #f39c12;
- }
+/* setting change in color for social media links */
+#social-fb:hover {
+  color: #3b5998;
+}
+#social-tw:hover {
+  color: #4099ff;
+}
+#social-gp:hover {
+  color: #d34836;
+}
+#social-em:hover {
+  color: #f39c12;
+}
 
+/* putting some padding in for form element */
 form {
   padding: 40px;
-
 }
