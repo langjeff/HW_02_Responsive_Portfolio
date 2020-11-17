@@ -1,0 +1,38 @@
+nav, .sidenav {
+    background-color: #121612 !important;
+  
+}
+
+a {
+    color: #F4F4F6 !important;
+    font-family: Gugi;
+    margin-right: 2em;
+    /* size: 80px !important; */
+}
+
+.brand-logo {
+    font-family: Major Mono Display;
+    margin: auto;
+}
+
+ul {
+    padding-right: 15em;
+}
+
+li {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+body {
+    background-color: #121612;
+    opacity: 1;
+    background-image: radial-gradient(#45455f 2px, #121612 2px);
+    background-size: 40px 40px;
+}
+
+h1 {
+    color: #F4F4F6 !important;
+    padding-top: 2em;
+    font-family: Raleway;
+}
