@@ -1,9 +1,19 @@
-nav, .sidenav {
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav, .sidenav, footer {
     background-color: #121612 !important;
   
 }
 
-a {
+nav a {
     color: #F4F4F6 !important;
     font-family: Gugi;
     margin-right: 2em;
@@ -29,6 +39,7 @@ body {
     opacity: 1;
     background-image: radial-gradient(#45455f 2px, #121612 2px);
     background-size: 40px 40px;
+    align-content: center;
 }
 
 h1 {
@@ -36,3 +47,29 @@ h1 {
     padding-top: 2em;
     font-family: Raleway;
 }
+
+p   {
+    color: #6F6FC3 !important;
+    padding-top: 2em;
+    font-size: 40px;
+    font-family: Gugi;
+}
+
+h3 {
+    color: #F4F4F6 !important;
+    padding-top: 2em;
+    font-family: Raleway;
+    margin-top: 2em;
+}
+
+h3 a {
+    color: #6F6FC3 !important;
+    padding-top: 2em;
+    font-family: Raleway;
+}
+
+.pagination {
+    justify-content: center;
+    align-content: center;
+}
+

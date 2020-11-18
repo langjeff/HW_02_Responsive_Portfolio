@@ -4,7 +4,13 @@
     $('.sidenav').sidenav();
   });
 
-
+//function for floating buttion
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.floating-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      hoverEnabled: false
+    });
+  });
 
   $(function() {
   $('.type-text').each(function() {
@@ -16,7 +22,7 @@
       cursor: '▋',
       delay: 3000,
       preserve: false,
-      prefix: '[teletype ~]# ',
+      prefix: '',
       loop: 0
     });
   });
