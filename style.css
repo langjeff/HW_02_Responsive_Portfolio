@@ -83,7 +83,7 @@ h4 {
      ;
 }
 
-.card-title {
+.card-title a {
     color: #F4F4F6 !important;
     font-family: Gugi;
     padding: 1em;

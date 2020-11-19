@@ -4,15 +4,9 @@
     $('.sidenav').sidenav();
   });
 
-//function for floating buttion
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.floating-action-btn');
-    var instances = M.FloatingActionButton.init(elems, {
-      hoverEnabled: false
-    });
-  });
 
-  $(function() {
+//teletype function for displaying scrolling text
+$(function() {
   $('.type-text').each(function() {
     var items = $(this).attr('title') + ';' + $(this).text();
     $(this).empty().attr('title', '').teletype({
