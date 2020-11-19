@@ -17,7 +17,6 @@ nav a {
     color: #F4F4F6 !important;
     font-family: Gugi;
     margin-right: 2em;
-    /* size: 80px !important; */
 }
 
 .brand-logo {
@@ -39,7 +38,6 @@ body {
     opacity: 1;
     background-image: radial-gradient(#45455f 2px, #121612 2px);
     background-size: 40px 40px;
-    align-content: center;
 }
 
 h1 {
@@ -60,6 +58,7 @@ h3 {
     padding-top: 2em;
     font-family: Raleway;
     margin-top: 2em;
+    line-height: 115% !important;
 }
 
 h3 a {
@@ -68,8 +67,32 @@ h3 a {
     font-family: Raleway;
 }
 
-.pagination {
-    justify-content: center;
-    align-content: center;
+h4 {
+       color: #D9D9D3 !important;
+       font-family: Raleway;
 }
+
+.card-content p {
+       color: #F4F4F6 !important;
+       font-family: Raleway;
+       font-size: 20px;
+}
+
+.card {
+     background-color: #45455F !important;
+     ;
+}
+
+.card-title {
+    color: #F4F4F6 !important;
+    font-family: Gugi;
+    padding: 1em;
+}
+
+.card-action a {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+
+
 
