@@ -13,6 +13,12 @@ nav, .sidenav, footer {
   
 }
 
+.sidenav li a {
+    color: #F4F4F6 !important;
+    font-family: Gugi;
+    font-size: 20px !important;
+}
+
 nav a {
     color: #F4F4F6 !important;
     font-family: Gugi;
