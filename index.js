@@ -11,10 +11,10 @@ $(function() {
     var items = $(this).attr('title') + ';' + $(this).text();
     $(this).empty().attr('title', '').teletype({
       text: $.map(items.split(';'), $.trim),
-      typeDelay: 10,
-      backDelay: 20,
+      typeDelay: 5,
+      backDelay: 10,
       cursor: '▋',
-      delay: 3000,
+      delay: 2000,
       preserve: false,
       prefix: '',
       loop: 0
